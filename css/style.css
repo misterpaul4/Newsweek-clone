@@ -1,5 +1,52 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+/* generic */
+
+:root {
+  --slim-font: 'Oswald', sans-serif;
+  --red-color: #f72210;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
 /* header */
 
-header .logo-container {
-  width: 40%;
+.header-top-container {
+  background: var(--red-color);
+  color: white;
 }
+
+
+
+header .logo-container {
+  width: 35%;
+}
+
+.datetime-locale-container {
+  font-family: var(--slim-font);
+}
+
+.btns-container button {
+  border: 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.sign-in {
+  background: none;
+  color: inherit;
+}
+
+.subscribe {
+  background: white;
+  color: var(--red-color);
+}
+
+
