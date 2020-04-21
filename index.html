@@ -6,6 +6,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title></title>
   </head>
@@ -13,16 +14,15 @@
     <div class="wrapper">
       <header>
         <!--  -->
-        <div class="header-top-container container-fluid p-0">
-          <div class="datetime-locale-container">
+        <div class="header-top-container py-3 container-fluid d-flex justify-content-between align-items-center border border-primary">
+          <div class="datetime-locale-container border border-secondary">
             <div class="locale">
               <a href="#">
-                <span class="temperature">10°</span>
+                <span class="weather">
+                  <i class="fas fa-cloud-sun"></i> 10°
+                </span>
 
                 <span class="location">
-                  <span href="#" class="img-container weather-icon d-inline-block">
-                    <img src="https://g.newsweek.com/img/weather/27.png" alt="weather icon">
-                  </span>
                   Lagos, NG <i class="fas fa-chevron-right"></i>
                 </span>
               </a>
@@ -33,9 +33,9 @@
             </div>
           </div>
 
-          <div class="logo-container"><img src="img/logo.svg"></div>
+          <div class="logo-container"><img src="img/logo.svg" alt="newsweek logo" class="w-100"></div>
 
-          <div class="btns-container">
+          <div class="btns-container align-self-end">
             <button class="sign-in">SIGN IN</button>
             <button class="subscribe">SUBSCRIBE </button>
           </div>
