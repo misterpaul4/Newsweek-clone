@@ -31,7 +31,7 @@ a {
 }
 
 header .logo-container {
-  width: 35%;
+  width: 27em;
 }
 
 .datetime-locale-container {
@@ -80,7 +80,7 @@ header .logo-container {
 
 @media all and (max-width: 991px) {
   header .logo-container {
-    width: 20%;
+    width: 9em;
   }
 
   .datetime-locale-container {
