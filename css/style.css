@@ -57,7 +57,7 @@ header .logo-container {
   background: none;
   color: #fb9a94;
   border: 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin: 0 5px 0 20px;
 }
 
@@ -72,6 +72,31 @@ header .logo-container {
 }
 
 /* media querries */
+
+@media all and (max-width: 480px) {
+  .subscribe {
+    padding: 0 2px;
+  }
+
+  .subscribe i {
+    display: none;
+  }
+
+  .sign-in {
+    padding: 0;
+  }
+
+  .burger-menu {
+    margin: 0 0 0 15px;
+    padding: 0;
+  }
+
+  .btns-container button {
+    font-family: var(--slim-font);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}
 
 @media all and (max-width: 576px) {
   header .logo-container {
