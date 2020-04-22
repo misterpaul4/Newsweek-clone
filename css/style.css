@@ -58,7 +58,8 @@ header .logo-container {
   color: var(--red-color);
 }
 
-.weather, .location {
+.weather,
+.location {
   word-spacing: 4px;
 }
 
