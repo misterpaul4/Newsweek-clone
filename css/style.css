@@ -1,7 +1,7 @@
 /* import font */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
 /* generic */
 
 :root {
@@ -20,6 +20,7 @@ a {
 
 .wrapper {
   max-width: 1320px;
+  height: 100vh;
   background: white;
 }
 
@@ -81,10 +82,22 @@ header .logo-container {
 .news-categories li a {
   padding: 0;
   text-align: center;
+  border-right: 1px solid lightgray;
 }
 
 a.nav-link:hover {
   color: var(--red-color);
+}
+
+.search-container {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-icon {
+  position: absolute;
+  right: 0;
+  width: 22px;
 }
 
 /* media querries */
