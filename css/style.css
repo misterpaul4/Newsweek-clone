@@ -53,6 +53,14 @@ header .logo-container {
   color: inherit;
 }
 
+.burger-menu {
+  background: none;
+  color: #fb9a94;
+  border: 0;
+  font-size: 1.4rem;
+  margin: 0 5px 0 20px;
+}
+
 .subscribe {
   background: white;
   color: var(--red-color);
