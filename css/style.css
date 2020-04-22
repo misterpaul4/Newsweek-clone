@@ -60,7 +60,7 @@ header .logo-container {
 
 .weather,
 .location {
-  word-spacing: 4px;
+  word-spacing: 3px;
 }
 
 /* media querries */
@@ -85,5 +85,6 @@ header .logo-container {
 
   .datetime-locale-container {
     margin-right: auto;
+    margin-left: 18px;
   }
 }
