@@ -73,6 +73,20 @@ header .logo-container {
 
 /* news category */
 
+.news-categories-section {
+  width: 95.5%;
+  font-weight: 700;
+}
+
+.news-categories li a {
+  padding: 0;
+  text-align: center;
+}
+
+a.nav-link:hover {
+  color: var(--red-color);
+}
+
 /* media querries */
 
 @media all and (max-width: 480px) {
