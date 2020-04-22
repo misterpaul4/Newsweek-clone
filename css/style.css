@@ -65,8 +65,25 @@ header .logo-container {
 
 /* media querries */
 
+@media all and (max-width: 576px) {
+  header .logo-container {
+    position: absolute; /* element is not positioned on the left, had to use absolute position for this */
+    left: auto;
+  }
+}
+
 @media all and (max-width: 640px) {
   .location {
     display: none;
+  }
+}
+
+@media all and (max-width: 991px) {
+  header .logo-container {
+    width: 20%;
+  }
+
+  .datetime-locale-container {
+    margin-right: auto;
   }
 }
