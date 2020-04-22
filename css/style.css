@@ -25,7 +25,7 @@ a {
 
 /* header */
 
-.header-top-container {
+.header-container {
   background: var(--red-color);
   color: white;
 }
