@@ -75,8 +75,9 @@ header .logo-container {
 /* news category */
 
 .news-categories-section {
-  width: 95.5%;
+  width: 93%;
   font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .news-categories li a {
@@ -90,6 +91,7 @@ a.nav-link:hover {
 }
 
 .search-container {
+  width: 5em;
   position: relative;
   font-family: 'Montserrat', sans-serif;
 }
@@ -122,8 +124,8 @@ a.nav-link:hover {
 
   .btns-container button {
     font-family: var(--slim-font);
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 0.8rem;
   }
 }
 
