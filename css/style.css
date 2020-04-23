@@ -143,6 +143,12 @@ nav .right-edge {
   font-weight: bold;
 }
 
+.featured-stories .news-category {
+  bottom: 0;
+  left: 0;
+  background: red;
+}
+
 /* media querries */
 
 @media all and (max-width: 480px) {
