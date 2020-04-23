@@ -12,8 +12,6 @@
   --news-category-gray: rgba(255,255,255,.9);
 }
 
-/* generic */
-
 body {
   font-family: "Roboto Condensed", sans-serif;
   background: #f4f5f6;
@@ -144,7 +142,8 @@ nav .right-edge {
   font-weight: bold;
 }
 
-.featured-stories .news-category {
+.featured-stories .news-category,
+.top-story .news-category {
   bottom: 0;
   left: 0;
   background: var(--news-category-gray);
