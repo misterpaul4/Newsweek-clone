@@ -75,9 +75,15 @@ header .logo-container {
 /* news category */
 
 .news-categories-section {
-  width: 93%;
+  position: relative;
   font-weight: 700;
   font-size: 1.2rem;
+  position: relative;
+  border: 1px solid green;
+}
+
+.news-categories {
+  width: 93%;
 }
 
 .news-categories li a {
@@ -91,7 +97,7 @@ a.nav-link:hover {
 }
 
 .search-container {
-  width: 5em;
+  width: 4.2em;
   position: relative;
   font-family: 'Montserrat', sans-serif;
 }
@@ -100,6 +106,17 @@ a.nav-link:hover {
   position: absolute;
   right: 0;
   width: 22px;
+}
+
+
+nav .right-edge {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 6.5%;
+  height: 15px;
+  transform: skewX(45deg);
+  background: var(--red-color);
 }
 
 /* media querries */
