@@ -9,6 +9,7 @@
   --slim-font: 'Oswald', sans-serif;
   --red-color: #f72210;
   --heading-gray: rgba(3,3,3,.4);
+  --news-category-gray: rgba(255,255,255,.9);
 }
 
 /* generic */
@@ -146,7 +147,12 @@ nav .right-edge {
 .featured-stories .news-category {
   bottom: 0;
   left: 0;
-  background: red;
+  background: var(--news-category-gray);
+  color: var(--red-color);
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 5px 15px;
 }
 
 /* media querries */
