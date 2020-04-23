@@ -31,7 +31,7 @@ a:hover {
   color: inherit;
 }
 
-.news-section .content h1 a { /* news headings */
+.news-section .content h3 a { /* news headings */
   text-decoration-color: var(--red-color);
 }
 
@@ -138,7 +138,7 @@ nav .right-edge {
   font-size: 1.2rem;
 }
 
-.news-section .content h1 { /* news headings */
+.news-section .content h3 { /* news headings */
   font-size: 1.5rem;
   font-weight: bold;
 }
