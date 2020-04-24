@@ -11,7 +11,7 @@
   --heading-gray: rgba(3, 3, 3, 0.4);
   --news-category-gray: rgba(255, 255, 255, 0.9);
   --dark-color: #272727;
-  --light-border: 1px solid rgb(211, 211, 211, 0.9);;
+  --light-border: 1px solid rgb(211, 211, 211, 0.9);
 }
 
 body {
@@ -32,11 +32,6 @@ a:hover {
   color: inherit;
 }
 
-a.nav-link:hover,
-.news-section .opinion a:hover {
-  color: var(--red-color);
-}
-
 .news-categories a {
   padding: 0;
   text-align: center;
@@ -46,6 +41,11 @@ a.nav-link:hover,
 .news-section h3 a,
 .news-section h5 a { /* news headings */
   text-decoration-color: var(--red-color);
+}
+
+a.nav-link:hover,
+.news-section .opinion a:hover {
+  color: var(--red-color);
 }
 
 .news-section .news-category a:hover {
