@@ -8,8 +8,8 @@
 :root {
   --slim-font: 'Oswald', sans-serif;
   --red-color: #f72210;
-  --heading-gray: rgba(3,3,3,.4);
-  --news-category-gray: rgba(255,255,255,.9);
+  --heading-gray: rgba(3, 3, 3, 0.4);
+  --news-category-gray: rgba(255, 255, 255, 0.9);
   --dark-color: #272727;
 }
 
@@ -29,6 +29,12 @@ body {
 a,
 a:hover {
   color: inherit;
+}
+
+.news-categories a {
+  padding: 0;
+  text-align: center;
+  border-right: 1px solid rgb(211, 211, 211, 0.5);
 }
 
 .news-section .content h3 a { /* news headings */
@@ -93,17 +99,11 @@ header .logo-container {
   position: relative;
   font-weight: 700;
   font-size: 1.2rem;
-  border-bottom: 1px solid rgb(211 ,211 , 211, 0.5);
+  border-bottom: 1px solid rgb(211, 211, 211, 0.5);
 }
 
 .news-categories {
   width: 93%;
-}
-
-.news-categories a {
-  padding: 0;
-  text-align: center;
-  border-right: 1px solid rgb(211 ,211 , 211, 0.5);
 }
 
 a.nav-link:hover {
