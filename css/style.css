@@ -142,9 +142,19 @@ nav .right-edge {
   font-size: 1.2rem;
 }
 
-.news-section .content h3 { /* news headings */
+.news-section h3 { /* news headings */
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.news-section h4 { /* heroes of pandemic */
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.news-section .covid-heroes p,
+.news-section .culture-travel p {
+  opacity: 0.5;
 }
 
 .featured-stories .news-category,
