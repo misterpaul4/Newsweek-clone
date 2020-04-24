@@ -10,6 +10,7 @@
   --red-color: #f72210;
   --heading-gray: rgba(3,3,3,.4);
   --news-category-gray: rgba(255,255,255,.9);
+  --dark-color: #272727;
 }
 
 body {
@@ -32,6 +33,10 @@ a:hover {
 
 .news-section .content h3 a { /* news headings */
   text-decoration-color: var(--red-color);
+}
+
+.news-section .news-category a:hover {
+  text-decoration: none;
 }
 
 /* header */
@@ -152,6 +157,18 @@ nav .right-edge {
   font-size: 1.1rem;
   text-transform: uppercase;
   padding: 5px 15px;
+}
+
+.covid-heroes .section-tag {
+  bottom: 0;
+  left: 0;
+  background: #c2d4d7;
+  font-size: 0.85rem;
+}
+
+.covid-heroes .section-tag:hover {
+  background: var(--dark-color);
+  color: white;
 }
 
 /* media querries */
