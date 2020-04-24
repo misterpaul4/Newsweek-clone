@@ -173,14 +173,16 @@ nav .right-edge {
   padding: 5px 15px;
 }
 
-.covid-heroes .section-tag {
+.covid-heroes .section-tag,
+.culture-travel .section-tag {
   bottom: 0;
   left: 0;
   background: #c2d4d7;
   font-size: 0.85rem;
 }
 
-.covid-heroes .section-tag:hover {
+.covid-heroes .section-tag:hover,
+.culture-travel .section-tag:hover {
   background: var(--dark-color);
   color: white;
 }
