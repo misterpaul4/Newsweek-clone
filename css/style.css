@@ -32,6 +32,11 @@ a:hover {
   color: inherit;
 }
 
+a.nav-link:hover,
+.news-section .opinion a:hover {
+  color: var(--red-color);
+}
+
 .news-categories a {
   padding: 0;
   text-align: center;
@@ -112,10 +117,6 @@ header .logo-container {
   width: 93%;
 }
 
-a.nav-link:hover {
-  color: var(--red-color);
-}
-
 .search-container {
   width: 4.2em;
   position: relative;
@@ -160,6 +161,7 @@ nav .right-edge {
 
 .news-section h5 {
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .news-section .covid-heroes p,
@@ -212,7 +214,6 @@ nav .right-edge {
 
 .author {
   color: #555;
-  font-size: 1.05rem;
   font-family: var(--slim-font);
   text-transform: uppercase;
   font-weight: 500;
@@ -220,6 +221,10 @@ nav .right-edge {
 
 .opinion article {
   border-bottom: var(--light-border);
+}
+
+.opinion article:last-child {
+  border: 0;
 }
 
 /* media querries */
