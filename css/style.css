@@ -11,6 +11,7 @@
   --heading-gray: rgba(3, 3, 3, 0.4);
   --news-category-gray: rgba(255, 255, 255, 0.9);
   --dark-color: #272727;
+  --light-border: 1px solid rgb(211, 211, 211, 0.9);;
 }
 
 body {
@@ -37,7 +38,8 @@ a:hover {
   border-right: 1px solid rgb(211, 211, 211, 0.5);
 }
 
-.news-section .content h3 a { /* news headings */
+.news-section h3 a,
+.news-section h5 a { /* news headings */
   text-decoration-color: var(--red-color);
 }
 
@@ -156,6 +158,10 @@ nav .right-edge {
   font-weight: 300;
 }
 
+.news-section h5 {
+  font-weight: bold;
+}
+
 .news-section .covid-heroes p,
 .news-section .culture-travel p {
   opacity: 0.5;
@@ -185,6 +191,15 @@ nav .right-edge {
 .culture-travel .section-tag:hover {
   background: var(--dark-color);
   color: white;
+}
+
+.float-lyt .img-container {
+  width: 5.8em;
+}
+
+.float-lyt article {
+  border-top: var(--light-border);
+  border-bottom: var(--light-border);
 }
 
 /* media querries */
