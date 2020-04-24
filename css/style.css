@@ -202,6 +202,26 @@ nav .right-edge {
   border-bottom: var(--light-border);
 }
 
+/* opinion */
+
+.news-section .opinion img {
+  width: 4em;
+  height: auto;
+  object-fit: cover;
+}
+
+.author {
+  color: #555;
+  font-size: 1.05rem;
+  font-family: var(--slim-font);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.opinion article {
+  border-bottom: var(--light-border);
+}
+
 /* media querries */
 
 @media all and (max-width: 480px) {
