@@ -52,8 +52,19 @@ a.nav-link:hover,
   text-decoration: none;
 }
 
-.news-section img {
+img {
   width: 100%;
+  object-fit: cover;
+}
+
+.small-image {
+  width: 95px;
+  height: 95px;
+}
+
+.round-image {
+  width: 63px;
+  height: 63px;
 }
 
 /* header */
@@ -159,7 +170,8 @@ nav .right-edge {
   font-weight: 300;
 }
 
-.news-section h5 {
+.news-section h5,
+.news-section h6 {
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -195,22 +207,12 @@ nav .right-edge {
   color: white;
 }
 
-.float-lyt .img-container {
-  width: 5.8em;
-}
-
 .float-lyt article {
   border-top: var(--light-border);
   border-bottom: var(--light-border);
 }
 
 /* opinion */
-
-.news-section .opinion img {
-  width: 4em;
-  height: auto;
-  object-fit: cover;
-}
 
 .author {
   color: #555;
@@ -225,6 +227,12 @@ nav .right-edge {
 
 .opinion article:last-child {
   border: 0;
+}
+
+/* the debate */
+.debate article {
+  border-top: 4px solid var(--red-color);
+  padding-top: 2px;
 }
 
 /* media querries */
