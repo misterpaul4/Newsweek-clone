@@ -245,8 +245,25 @@ nav .right-edge {
   border-top: 4px solid #1c87fb;
 }
 
-.author-container {
-  border-top: var(--light-border);
+.debate hr {
+  top: 0;
+  right: 0;
+  border: 1px solid rgba(211, 211, 211, 0.4);
+}
+
+.debate hr:last-child {
+  top: 3px;
+}
+
+.debate .author-img-container {
+  z-index: 1;
+}
+
+.debate .vs {
+  padding: 10px;
+  width: 45px;
+  font-family: var(--slim-font);
+  background: black;
 }
 
 /* media querries */
