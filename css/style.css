@@ -44,7 +44,8 @@ a:hover {
 }
 
 a.nav-link:hover,
-.news-section .opinion a:hover {
+.news-section .opinion a:hover,
+.news-section .latest-news a:hover {
   color: var(--red-color);
 }
 
@@ -207,9 +208,9 @@ nav .right-edge {
   color: white;
 }
 
-.float-lyt article {
+.more-stories article,
+.latest-news article {
   border-top: var(--light-border);
-  border-bottom: var(--light-border);
 }
 
 /* opinion */
