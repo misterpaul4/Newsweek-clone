@@ -229,13 +229,12 @@ nav .right-edge {
   border-bottom: var(--light-border);
 }
 
-.opinion article:last-child {
-  border: 0;
-}
-
-/* the debate */
 .debate article {
   padding-top: 2px;
+}
+
+.opinion article:last-child {
+  border: 0;
 }
 
 .debate .one {
