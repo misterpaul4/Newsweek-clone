@@ -11,7 +11,7 @@
   --heading-gray: rgba(3, 3, 3, 0.4);
   --news-category-gray: rgba(255, 255, 255, 0.9);
   --dark-color: #272727;
-  --light-border: 1px solid rgb(211, 211, 211, 0.9);
+  --light-border: 1px solid rgba(211, 211, 211, 0.9);
 }
 
 body {
@@ -221,6 +221,10 @@ nav .right-edge {
   font-weight: 500;
 }
 
+.author-name {
+  color: black;
+}
+
 .opinion article {
   border-bottom: var(--light-border);
 }
@@ -231,8 +235,19 @@ nav .right-edge {
 
 /* the debate */
 .debate article {
-  border-top: 4px solid var(--red-color);
   padding-top: 2px;
+}
+
+.debate .one {
+  border-top: 4px solid var(--red-color);
+}
+
+.debate .two {
+  border-top: 4px solid #1c87fb;
+}
+
+.author-container {
+  border-top: var(--light-border);
 }
 
 /* media querries */
