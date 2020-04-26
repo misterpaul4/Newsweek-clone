@@ -222,6 +222,7 @@ h3 { /* news headings */
 .featured-stories .news-category,
 .top-story .news-category,
 .magazines .news-category,
+.magazines-2 .news-category,
 .mag-tag {
   bottom: 0;
   left: 0;
@@ -233,7 +234,8 @@ h3 { /* news headings */
   padding: 5px 15px;
 }
 
-.mag-tag {
+.mag-tag,
+.magazines-2 article:last-child .news-category {
   color: white;
   background: var(--red-color);
 }
