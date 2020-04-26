@@ -6,8 +6,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <!-- Bootstrap jQuery , Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/b9edfb7622.js" crossorigin="anonymous"></script>
     <title>Newsweek</title>
   </head>
   <body>
@@ -72,7 +78,7 @@
 
       <!-- news section -->
       <section class="news-section d-md-flex">
-        <h1 class="d-none">news section</h1>
+        <h1 class="d-none">news</h1>
 
       <!-- start grid -->
         <!-- featured stories -->
@@ -536,14 +542,57 @@
       <!-- end grid END -->
       </section>
       <!-- news section END -->
+
+      <!-- magazine section -->
+      <section class="magazine-section d-flex flex-column">
+        <h1 class="d-none">magazine</h1>
+
+        <div class="logo-sm-contain d-flex align-items-center align-self-center">
+          <img src="img/logo-sm.svg" alt="logo" class="logo-sm mr-2">
+          <span class="d-inline-block">in the magazine</span>
+        </div>
+        <!-- magazines -->
+        <div class="magazines d-flex">
+          <article  class="hero">
+            <div class="image position-relative mb-3">
+              <a href="#"><img src="img/magazine/1.webp" alt="Whitmer banner">
+              </a>
+              <div class="news-category position-absolute"><a href="#">may 01 issue</a></div>
+            </div>
+
+            <a href="#" class="link-mag d-block px-5 py-1 text-center">see all features <i class="fas fa-chevron-right"></i></a>
+          </article>
+
+          <article>
+            <a href="#"><img src="img/magazine/2full.webp" alt="image"></a>
+            <div class="mb-3 mt-2">
+              <span class="sign-in mag-tag">cover</span>
+              <a href="#" class="news-category">politics</a>
+            </div>
+            <h3><a href="#">Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h3>
+          </article>
+
+          <article>
+            <a href="#"><img src="img/magazine/3.webp" alt="image"></a>
+            <div class="mb-3 mt-2">
+              <span class="sign-in mag-tag">cover</span>
+              <a href="#" class="news-category">politics</a>
+            </div>
+            <h3><a href="#">Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And More</a></h3>
+          </article>
+
+          <article>
+            <a href="#"><img src="img/magazine/4.webp" alt="image"></a>
+            <div class="mb-3 mt-2">
+              <span class="sign-in mag-tag">features</span>
+              <a href="#" class="news-category">health</a>
+            </div>
+            <h3><a href="#">How Doctors are Saving Coronavirus Patients with Innovative New Techniques</a></h3>
+          </article>
+        </div>
+        <!-- magazines END -->
+      </section>
+      <!-- magazine section END -->
     </div>
-
-    <!-- Bootstrap jQuery , Popper.js, Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-    <!-- Font awesome -->
-    <script src="https://kit.fontawesome.com/b9edfb7622.js" crossorigin="anonymous"></script>
   </body>
 </html>

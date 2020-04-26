@@ -12,6 +12,7 @@
   --news-category-gray: rgba(255, 255, 255, 0.9);
   --dark-grey: #333;
   --dark-color: #272727;
+  --light-grey: #f4f5f6;
   --light-border: 1px solid rgba(211, 211, 211, 0.9);
 }
 
@@ -40,7 +41,8 @@ a:hover {
 }
 
 .news-section h3 a,
-.news-section h5 a { /* news headings */
+.news-section h5 a,
+.magazines h3 a {
   text-decoration-color: var(--red-color);
 }
 
@@ -50,7 +52,9 @@ a.nav-link:hover,
   color: var(--red-color);
 }
 
-.news-section .news-category a:hover {
+.news-section .news-category a:hover,
+.magazines .hero a:hover,
+.magazines a.news-category:hover {
   text-decoration: none;
 }
 
@@ -125,16 +129,21 @@ header .logo-container {
   color: inherit;
 }
 
-.sign-up {
+.sign-up,
+.link-mag {
   font-size: 1.2rem;
   font-family: var(--slim-font);
   font-weight: 500;
   text-transform: uppercase;
 }
 
+.link-mag {
+  background-color: #dbdcdd;
+}
+
 .newsletter-popup-container {
   color: var(--dark-grey);
-  background-color: #f4f5f6;
+  background-color: var(--light-grey);
   border: 1px solid #e5e5e5;
   font-weight: bold;
 }
@@ -189,7 +198,7 @@ nav .right-edge {
   font-size: 1.2rem;
 }
 
-.news-section h3 { /* news headings */
+h3 { /* news headings */
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -211,7 +220,9 @@ nav .right-edge {
 }
 
 .featured-stories .news-category,
-.top-story .news-category {
+.top-story .news-category,
+.magazines .news-category,
+.mag-tag {
   bottom: 0;
   left: 0;
   background: var(--news-category-gray);
@@ -220,6 +231,11 @@ nav .right-edge {
   font-size: 1.1rem;
   text-transform: uppercase;
   padding: 5px 15px;
+}
+
+.mag-tag {
+  color: white;
+  background: var(--red-color);
 }
 
 .covid-heroes .section-tag,
