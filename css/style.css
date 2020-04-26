@@ -75,7 +75,7 @@ img {
 }
 
 .logo-sm-contain {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 1;
@@ -107,11 +107,6 @@ header .logo-container {
   font-weight: 300;
 }
 
-.sign-in {
-  background: none;
-  color: inherit;
-}
-
 .burger-menu {
   background: none;
   color: #fb9a94;
@@ -123,6 +118,25 @@ header .logo-container {
 .subscribe {
   background: white;
   color: var(--red-color);
+}
+
+.sign-in {
+  background: none;
+  color: inherit;
+}
+
+.sign-up {
+  font-size: 1.2rem;
+  font-family: var(--slim-font);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.newsletter-popup-container {
+  color: var(--dark-grey);
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+  font-weight: bold;
 }
 
 .weather,
