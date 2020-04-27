@@ -69,7 +69,7 @@ img {
 }
 
 .edition-container >* {
-  flex-basis: 33.333333%;
+  flex: 1 1 33.333333%;
 }
 
 .small-image {
