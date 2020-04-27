@@ -43,7 +43,8 @@ a:hover {
 
 a.nav-link:hover,
 .news-section .opinion a:hover,
-.news-section .latest-news a:hover {
+.news-section .latest-news a:hover,
+.categories-section h5 a:hover {
   color: var(--red-color);
 }
 
@@ -65,6 +66,10 @@ img {
 
 .editor-pick article {
   flex: 1 1 200px;
+}
+
+.edition-container >* {
+  flex-basis: 33.333333%;
 }
 
 .small-image {
@@ -129,22 +134,23 @@ header .logo-container {
 .sign-up,
 .link-mag,
 .news-section h5,
+.categories-section h5,
 .news-section h6,
-.news-section h2,
-h3 {
+.news-section h2 {
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
-.news-section h5,
-.news-section h6,
 h3 {
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .sign-up,
 .link-mag,
 .author,
-.news-section h2 {
+.news-section h2,
+.categories-section h2 {
   font-family: var(--slim-font);
   font-weight: 500;
   text-transform: uppercase;
@@ -152,12 +158,16 @@ h3 {
 
 .news-section h2 {
   color: var(--heading-gray);
-  font-size: 1rem;
 }
 
 .news-section h4 {
   font-size: 1.8rem;
   font-weight: 300;
+}
+
+.categories-section h2 {
+  color: var(--red-color);
+  font-size: 1.5rem;
 }
 
 .link-mag {
@@ -245,7 +255,9 @@ nav .right-edge {
 .magazines,
 .e-picks,
 .more-stories article,
-.latest-news article {
+.latest-news article,
+.categories-section .corner article,
+.edition {
   border-top: var(--light-border);
 }
 
