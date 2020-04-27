@@ -65,10 +65,12 @@ img {
   object-fit: cover;
 }
 
-.magazine-section article,
-.e-picks article,
-.e2-picks article {
+.magazine-section article {
   flex-basis: 25%;
+}
+
+.editor-pick article {
+  flex: 1 1 200px; 
 }
 
 /*
@@ -335,6 +337,39 @@ h3 { /* news headings */
 }
 
 /* media querries */
+@media all and (max-width: 991px) {
+  header .logo-container {
+    width: 9em;
+  }
+
+  .datetime-locale-container {
+    margin-right: auto;
+    margin-left: 18px;
+  }
+
+  .editor-pick article {
+    flex-basis: 300px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .editor-pick article {
+    flex-basis: 400px;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .location {
+    display: none;
+  }
+}
+
+@media all and (max-width: 576px) {
+  header .logo-container {
+    position: absolute;
+    left: auto;
+  }
+}
 
 @media all and (max-width: 480px) {
   .subscribe {
@@ -358,29 +393,5 @@ h3 { /* news headings */
     font-family: var(--slim-font);
     font-weight: 500;
     font-size: 0.8rem;
-  }
-}
-
-@media all and (max-width: 576px) {
-  header .logo-container {
-    position: absolute; /* element is not positioned on the left, had to use absolute position for this */
-    left: auto;
-  }
-}
-
-@media all and (max-width: 640px) {
-  .location {
-    display: none;
-  }
-}
-
-@media all and (max-width: 991px) {
-  header .logo-container {
-    width: 9em;
-  }
-
-  .datetime-locale-container {
-    margin-right: auto;
-    margin-left: 18px;
   }
 }
