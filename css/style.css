@@ -42,6 +42,7 @@ a:hover {
 
 .news-section h3 a,
 .news-section h5 a,
+.editor-pick h3 a,
 .magazines h3 a {
   text-decoration-color: var(--red-color);
 }
@@ -54,7 +55,8 @@ a.nav-link:hover,
 
 .news-section .news-category a:hover,
 .magazines .hero a:hover,
-.magazines a.news-category:hover {
+.magazines a.news-category:hover,
+.editor-pick .news-category a:hover {
   text-decoration: none;
 }
 
@@ -63,16 +65,17 @@ img {
   object-fit: cover;
 }
 
-.magazine-section article {
+.magazine-section article,
+.editor-pick article {
   flex-basis: 25%;
 }
 
 /*
 .magazines article:not(:first-child) img {
-  height: 280px;
+  height: auto;
+  object-fit: cover;
 }
 */
-
 
 .small-image {
   width: 95px;
@@ -206,11 +209,11 @@ nav .right-edge {
   color: var(--heading-gray);
   font-family: var(--slim-font);
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 h3 { /* news headings */
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -225,8 +228,8 @@ h3 { /* news headings */
   font-size: 1.2rem;
 }
 
-.news-section .covid-heroes p,
-.news-section .culture-travel p {
+.covid-heroes p,
+.culture-travel p {
   opacity: 0.5;
 }
 
@@ -234,6 +237,7 @@ h3 { /* news headings */
 .top-story .news-category,
 .magazines .news-category,
 .magazines-2 .news-category,
+.editor-pick .news-category,
 .mag-tag {
   bottom: 0;
   left: 0;
@@ -242,7 +246,7 @@ h3 { /* news headings */
   font-weight: bold;
   font-size: 1.1rem;
   text-transform: uppercase;
-  padding: 5px 15px;
+  padding: 1px 6px;
 }
 
 .mag-tag,
@@ -251,7 +255,8 @@ h3 { /* news headings */
   background: var(--red-color);
 }
 
-.magazines {
+.magazines,
+.e-picks {
   border-top: var(--light-border);
 }
 
@@ -377,4 +382,10 @@ h3 { /* news headings */
     margin-right: auto;
     margin-left: 18px;
   }
+  /*
+  .magazines article:not(:first-child) img {
+    height: 100%;
+    object-fit: cover;
+  }
+  */
 }
