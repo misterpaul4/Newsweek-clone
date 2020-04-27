@@ -25,6 +25,14 @@ body {
   background: white;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
 a,
 a:hover {
   color: inherit;
