@@ -156,6 +156,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.categories-section h2 {
+  text-transform: capitalize;
+}
+
 .news-section h2 {
   color: var(--heading-gray);
 }
