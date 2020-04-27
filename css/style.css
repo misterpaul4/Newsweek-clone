@@ -33,6 +33,10 @@ header {
   z-index: 3;
 }
 
+.spacer {
+  height: 150px;
+}
+
 a,
 a:hover {
   color: inherit;
@@ -327,6 +331,10 @@ nav .right-edge {
 @media all and (max-width: 991px) {
   header .logo-container {
     width: 9em;
+  }
+
+  .spacer {
+    height: 75px;
   }
 
   .datetime-locale-container {
