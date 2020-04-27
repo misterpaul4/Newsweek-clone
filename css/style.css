@@ -63,6 +63,17 @@ img {
   object-fit: cover;
 }
 
+.magazine-section article {
+  flex-basis: 25%;
+}
+
+/*
+.magazines article:not(:first-child) img {
+  height: 280px;
+}
+*/
+
+
 .small-image {
   width: 95px;
   height: 95px;
@@ -238,6 +249,10 @@ h3 { /* news headings */
 .magazines-2 article:last-child .news-category {
   color: white;
   background: var(--red-color);
+}
+
+.magazines {
+  border-top: var(--light-border);
 }
 
 .covid-heroes .section-tag,
