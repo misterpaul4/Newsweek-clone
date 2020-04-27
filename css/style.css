@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
 
-/* generic */
-
 :root {
   --slim-font: 'Oswald', sans-serif;
   --red-color: #f72210;
@@ -27,8 +25,6 @@ body {
   background: white;
 }
 
-/* anchors */
-
 a,
 a:hover {
   color: inherit;
@@ -40,10 +36,8 @@ a:hover {
   border-right: 1px solid rgb(211, 211, 211, 0.5);
 }
 
-.news-section h3 a,
-.news-section h5 a,
-.editor-pick h3 a,
-.magazines h3 a {
+.link-red h3 a,
+.link-red h5 a {
   text-decoration-color: var(--red-color);
 }
 
@@ -55,7 +49,7 @@ a.nav-link:hover,
 
 .news-section .news-category a:hover,
 .magazines .hero a:hover,
-.magazines a.news-category:hover,
+.magazine-section a.news-category:hover,
 .editor-pick .news-category a:hover {
   text-decoration: none;
 }
@@ -72,13 +66,6 @@ img {
 .editor-pick article {
   flex: 1 1 200px;
 }
-
-/*
-.magazines article:not(:first-child) img {
-  height: auto;
-  object-fit: cover;
-}
-*/
 
 .small-image {
   width: 95px;
@@ -101,13 +88,6 @@ img {
   font-weight: bold;
   line-height: 1;
   color: var(--dark-grey);
-}
-
-/* header */
-
-.header-container {
-  background: var(--red-color);
-  color: white;
 }
 
 header .logo-container {
@@ -147,11 +127,37 @@ header .logo-container {
 }
 
 .sign-up,
-.link-mag {
+.link-mag,
+.news-section h5,
+.news-section h6,
+.news-section h2,
+h3 {
   font-size: 1.2rem;
+}
+
+.news-section h5,
+.news-section h6,
+h3 {
+  font-weight: bold;
+}
+
+.sign-up,
+.link-mag,
+.author,
+.news-section h2 {
   font-family: var(--slim-font);
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.news-section h2 {
+  color: var(--heading-gray);
+  font-size: 1rem;
+}
+
+.news-section h4 {
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 .link-mag {
@@ -205,42 +211,12 @@ nav .right-edge {
   background: var(--red-color);
 }
 
-/* main news section */
-
-.news-section h2 { /* section headings  */
-  text-transform: uppercase;
-  color: var(--heading-gray);
-  font-family: var(--slim-font);
-  font-weight: 500;
-  font-size: 1rem;
-}
-
-h3 { /* news headings */
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-.news-section h4 { /* heroes of pandemic */
-  font-size: 1.8rem;
-  font-weight: 300;
-}
-
-.news-section h5,
-.news-section h6 {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
 .covid-heroes p,
 .culture-travel p {
   opacity: 0.5;
 }
 
-.featured-stories .news-category,
-.top-story .news-category,
-.magazines .news-category,
-.magazines-2 .news-category,
-.editor-pick .news-category,
+.pos-tag .news-category,
 .mag-tag {
   bottom: 0;
   left: 0;
@@ -250,17 +226,6 @@ h3 { /* news headings */
   font-size: 1.1rem;
   text-transform: uppercase;
   padding: 1px 6px;
-}
-
-.mag-tag,
-.magazines-2 article:last-child .news-category {
-  color: white;
-  background: var(--red-color);
-}
-
-.magazines,
-.e-picks {
-  border-top: var(--light-border);
 }
 
 .covid-heroes .section-tag,
@@ -277,20 +242,21 @@ h3 { /* news headings */
   color: white;
 }
 
+.magazines,
+.e-picks,
 .more-stories article,
 .latest-news article {
   border-top: var(--light-border);
 }
 
-/* opinion */
-
-.author {
-  color: #555;
-  font-family: var(--slim-font);
-  text-transform: uppercase;
-  font-weight: 500;
+.header-container,
+.mag-tag,
+.magazines-2 article:last-child .news-category {
+  background: var(--red-color);
+  color: white;
 }
 
+/* opinion */
 .author-name {
   color: black;
 }
