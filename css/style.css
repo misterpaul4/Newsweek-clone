@@ -42,9 +42,9 @@ a:hover {
 }
 
 a.nav-link:hover,
+.categories-section h5 a:hover,
 .news-section .opinion a:hover,
-.news-section .latest-news a:hover,
-.categories-section h5 a:hover {
+.news-section .latest-news a:hover {
   color: var(--red-color);
 }
 
@@ -68,7 +68,7 @@ img {
   flex: 1 1 200px;
 }
 
-.edition-container >* {
+.edition-container > * {
   flex: 1 1 33.333333%;
 }
 
@@ -156,10 +156,6 @@ h3 {
   text-transform: uppercase;
 }
 
-.categories-section h2 {
-  text-transform: capitalize;
-}
-
 .news-section h2 {
   color: var(--heading-gray);
 }
@@ -172,6 +168,7 @@ h3 {
 .categories-section h2 {
   color: var(--red-color);
   font-size: 1.5rem;
+  text-transform: capitalize;
 }
 
 .link-mag {
@@ -256,6 +253,14 @@ nav .right-edge {
   color: white;
 }
 
+.opinion article {
+  border-bottom: var(--light-border);
+}
+
+.debate article {
+  padding-top: 2px;
+}
+
 .magazines,
 .e-picks,
 .more-stories article,
@@ -275,14 +280,6 @@ nav .right-edge {
 /* opinion */
 .author-name {
   color: black;
-}
-
-.opinion article {
-  border-bottom: var(--light-border);
-}
-
-.debate article {
-  padding-top: 2px;
 }
 
 .opinion article:last-child {
