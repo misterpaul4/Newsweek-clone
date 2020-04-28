@@ -194,6 +194,11 @@ h3,
   height: auto;
 }
 
+.spacer3 {
+  width: 250px;
+  height: 0;
+}
+
 .subscribe-container .image-container img {
   width: 170px;
   height: 227px;
