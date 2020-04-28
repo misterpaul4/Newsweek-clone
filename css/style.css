@@ -16,7 +16,7 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background: #f4f5f6;
+  background: var(--light-grey);
 }
 
 .wrapper {
@@ -153,7 +153,8 @@ header .logo-container {
   font-weight: bold;
 }
 
-h3 {
+h3,
+.promo h6 {
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -162,7 +163,8 @@ h3 {
 .link-mag,
 .author,
 .news-section h2,
-.categories-section h2 {
+.categories-section h2,
+.promo h2 {
   font-family: var(--slim-font);
   font-weight: 500;
   text-transform: uppercase;
@@ -177,10 +179,43 @@ h3 {
   font-weight: 300;
 }
 
-.categories-section h2 {
+.categories-section h2,
+.promo h2 {
   color: var(--red-color);
   font-size: 1.5rem;
   text-transform: capitalize;
+}
+
+.promo h2 {
+  font-size: 1.1rem;
+}
+
+.subscribe-container .mag-bg {
+  width: 170px;
+  height: 227px;
+}
+
+.subscribe-container img {
+  top: 13px;
+  left: 80px;
+}
+
+.subscribe-container {
+  background: var(--light-grey);
+}
+
+.spacer2 {
+  width: 80px;
+}
+
+.newsletter-bg-image {
+  background: url(../img/promo/bg.png);
+}
+
+
+.newsletter-bg-image,
+.newsletter-details {
+  flex: 1 1 50%;
 }
 
 .link-mag {
@@ -284,7 +319,8 @@ nav .right-edge {
 
 .header-container,
 .mag-tag,
-.magazines-2 article:last-child .news-category {
+.magazines-2 article:last-child .news-category,
+.promo .sign-up {
   background: var(--red-color);
   color: white;
 }
