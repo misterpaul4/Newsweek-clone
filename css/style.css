@@ -62,6 +62,7 @@ a.nav-link:hover,
   color: var(--red-color);
 }
 
+footer a:hover,
 .news-section .news-category a:hover,
 .magazines .hero a:hover,
 .magazine-section a.news-category:hover,
@@ -405,15 +406,20 @@ footer .logo {
   border-top: var(--light-border);
 }
 
-.footer-bottom {
-  border-top: 1px solid #d9d9d9;
+footer .horiz-line {
+  border-top: var(--light-border);
+}
+
+.edition-links a,
+.footer-nav a {
+  border-right: var(--light-border);
 }
 
 .copyright {
   font-size: 12px;
 }
 
-.social-icons-container li {
+footer li {
   list-style: none;
 }
 
