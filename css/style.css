@@ -50,9 +50,22 @@ a:hover {
   border-right: 1px solid rgb(211, 211, 211, 0.5);
 }
 
+.edition-links a,
+.footer-nav a {
+  border-right: var(--light-border);
+}
+
 .link-red h3 a,
 .link-red h5 a {
   text-decoration-color: var(--red-color);
+}
+
+footer a:hover {
+  color: var(--red-color);
+}
+
+.social-icons-container a:hover {
+  color: #3b5998;
 }
 
 a.nav-link:hover,
@@ -62,16 +75,11 @@ a.nav-link:hover,
   color: var(--red-color);
 }
 
-footer a:hover,
 .news-section .news-category a:hover,
 .magazines .hero a:hover,
 .magazine-section a.news-category:hover,
 .editor-pick .news-category a:hover {
   text-decoration: none;
-}
-
-.social-icons-container a:hover {
-  color: #3b5998;
 }
 
 img {
@@ -412,11 +420,6 @@ footer .logo {
 
 footer .horiz-line {
   border-top: var(--light-border);
-}
-
-.edition-links a,
-.footer-nav a {
-  border-right: var(--light-border);
 }
 
 .copyright {
