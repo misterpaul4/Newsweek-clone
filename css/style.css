@@ -7,6 +7,7 @@
   --slim-font: 'Oswald', sans-serif;
   --red-color: #f72210;
   --heading-gray: rgba(3, 3, 3, 0.4);
+  --footer-gray: rgba(3, 3, 3, 0.5);
   --news-category-gray: rgba(255, 255, 255, 0.9);
   --dark-grey: #333;
   --dark-color: #272727;
@@ -390,13 +391,38 @@ nav .right-edge {
   background: black;
 }
 
+/* footer */
+footer {
+  color: var(--footer-gray);
+}
+
 footer .logo {
   width: 236px;
   height: 36px;
 }
 
+.footer-top {
+  border-top: var(--light-border);
+}
+
+.footer-bottom {
+  border-top: 1px solid #d9d9d9;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
 .social-icons-container li {
   list-style: none;
+}
+
+i.fa-tumblr {
+  font-size: 22px;
+}
+
+.social-icons-container {
+  font-size: 26px;
 }
 
 /* media querries */
