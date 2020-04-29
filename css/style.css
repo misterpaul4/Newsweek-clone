@@ -390,6 +390,15 @@ nav .right-edge {
   background: black;
 }
 
+footer .logo {
+  width: 236px;
+  height: 36px;
+}
+
+.social-icons-container li {
+  list-style: none;
+}
+
 /* media querries */
 @media all and (max-width: 1200px) {
   .newsletter-details {
