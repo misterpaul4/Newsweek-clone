@@ -219,7 +219,7 @@ h3,
 
 .spacer2 {
   width: 80px;
-  height: 240px;
+  height: 227px;
 }
 
 .newsletter-container .spacer2 {
@@ -232,8 +232,8 @@ h3,
 }
 
 .newsletter-bg-image {
-  background: url(../img/promo/bg.png) no-repeat;
-  background-size: auto 100%;
+  background: url(../img/promo/bg.png) no-repeat center;
+  background-size: cover;
 }
 
 .newsletter-bg-image,
@@ -413,6 +413,14 @@ nav .right-edge {
 
   .editor-pick article {
     flex-basis: 300px;
+  } 
+
+  .newsletter-container .spacer2 {
+    height: auto;
+  }
+
+  .newsletter-bg-image {
+    flex-basis: 25%;
   }
 }
 
