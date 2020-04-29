@@ -228,7 +228,6 @@ h3,
 
 .newsletter-container {
   border: 1px solid #ebebeb;
-  border-left: 0;
 }
 
 .newsletter-bg-image {
@@ -424,9 +423,13 @@ nav .right-edge {
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .editor-pick article {
     flex-basis: 400px;
+  }
+
+  .newsletter-bg-image {
+    height: 160px;
   }
 }
 
