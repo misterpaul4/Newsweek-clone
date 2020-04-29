@@ -199,14 +199,14 @@ h3,
   height: 0;
 }
 
-.subscribe-container .image-container img {
-  width: 170px;
-  height: 227px;
-}
-
 .subscribe-container img {
   top: 13px;
   left: 80px;
+}
+
+.subscribe-container .image-container img {
+  width: 170px;
+  height: 227px;
 }
 
 .subscribe-container {
@@ -412,7 +412,7 @@ nav .right-edge {
 
   .editor-pick article {
     flex-basis: 300px;
-  } 
+  }
 
   .newsletter-container .spacer2 {
     height: auto;
