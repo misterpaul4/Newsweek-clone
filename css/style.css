@@ -70,6 +70,10 @@ footer a:hover,
   text-decoration: none;
 }
 
+.social-icons-container a:hover {
+  color: #3b5998;
+}
+
 img {
   width: 100%;
   object-fit: cover;
