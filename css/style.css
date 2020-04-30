@@ -463,6 +463,18 @@ i.fa-tumblr {
     height: 75px;
   }
 
+  .featured-stories {
+    flex-basis: 40%;
+  }
+
+  .hero {
+    flex-basis: 60%;
+  }
+
+  .other {
+    flex-basis: 100%;
+  }
+
   .datetime-locale-container {
     margin-right: auto;
     margin-left: 18px;
