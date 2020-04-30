@@ -464,11 +464,11 @@ i.fa-tumblr {
   }
 
   .featured-stories {
-    flex-basis: 40%;
+    flex-basis: 45%;
   }
 
   .hero {
-    flex-basis: 60%;
+    flex-basis: 55%;
   }
 
   .other {
@@ -491,6 +491,10 @@ i.fa-tumblr {
   .newsletter-bg-image {
     flex-basis: 25%;
   }
+
+  .newsletter-popup {
+    width: 40%;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -506,6 +510,11 @@ i.fa-tumblr {
 @media all and (max-width: 640px) {
   .location {
     display: none;
+  }
+
+
+  .newsletter-popup {
+    width: 60%;
   }
 }
 
@@ -538,5 +547,10 @@ i.fa-tumblr {
     font-family: var(--slim-font);
     font-weight: 500;
     font-size: 0.8rem;
+  }
+
+
+  .newsletter-popup {
+    width: 100%;
   }
 }
