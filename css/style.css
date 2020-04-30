@@ -498,6 +498,11 @@ i.fa-tumblr {
 }
 
 @media all and (max-width: 767px) {
+  .hero,
+  .featured-stories {
+    flex-basis: 100%;
+  }
+
   .editor-pick article {
     flex-basis: 400px;
   }
