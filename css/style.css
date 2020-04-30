@@ -363,7 +363,7 @@ nav .right-edge {
 .more-stories article,
 .latest-news article,
 .categories-section .corner article,
-.edition {
+.edition h2 {
   border-top: var(--light-border);
 }
 
