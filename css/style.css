@@ -199,7 +199,6 @@ h3,
 }
 
 .news-section h4 {
-  /*font-size: 1.8rem;*/
   font-weight: 300;
 }
 
@@ -512,7 +511,6 @@ i.fa-tumblr {
     display: none;
   }
 
-
   .newsletter-popup {
     width: 60%;
   }
@@ -548,7 +546,6 @@ i.fa-tumblr {
     font-weight: 500;
     font-size: 0.8rem;
   }
-
 
   .newsletter-popup {
     width: 100%;
