@@ -36,7 +36,7 @@ header {
 }
 
 .spacer {
-  height: 150px;
+  height: 165px;
 }
 
 a,
@@ -61,7 +61,8 @@ a:hover {
 }
 
 footer a:hover {
-  color: var(--red-color);
+  color: black;
+  text-decoration: none;
 }
 
 .social-icons-container a:hover {
@@ -459,7 +460,7 @@ i.fa-tumblr {
   }
 
   .spacer {
-    height: 75px;
+    height: 80px;
   }
 
   .featured-stories {
