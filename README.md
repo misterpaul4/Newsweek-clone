@@ -1,57 +1,31 @@
-# Project Name
+# newsweek.com clone
 
-> One paragraph statement about the project.
+> I built a replica of the newsweek website using twitter bootstrap.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./img/desktop.png)
+![](./img/tablet.png)
+![](./img/mobile.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
+- Bootstrap
+- Font awesome
+- Google fonts
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[check it out :point_right:](https://newsweek-clone-by-paul.netlify.app/)
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Email: [ajuzepaul@gmail.com](ajuzepaul@gmail.com)
+- Github: [@misterpaul4](https://github.com/misterpaul4)
+- Twitter: [@paulajuze](https://twitter.com/paulajuze)
+- Linkedin: [Chukwuebuka Paul Ajuizeogu](https://www.linkedin.com/in/chukwuebuka-paul-ajuizeogu/)
 
 ## 🤝 Contributing
 
@@ -62,13 +36,3 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
