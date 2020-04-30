@@ -76,7 +76,7 @@ a.nav-link:hover,
 }
 
 .news-section .news-category a:hover,
-.magazines .hero a:hover,
+.magazines .main a:hover,
 .magazine-section a.news-category:hover,
 .editor-pick .news-category a:hover {
   text-decoration: none;
@@ -85,6 +85,15 @@ a.nav-link:hover,
 img {
   width: 100%;
   object-fit: cover;
+}
+
+.featured-stories,
+.other {
+  flex-basis: 30%;
+}
+
+.hero {
+  flex-basis: 40%;
 }
 
 .magazine-section article {
