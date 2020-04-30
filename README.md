@@ -3,8 +3,6 @@
 > I built a replica of the newsweek website using twitter bootstrap.
 
 ![screenshot](./img/desktop.png)
-![](./img/tablet.png)
-![](./img/mobile.png)
 
 ## Built With
 
