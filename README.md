@@ -14,7 +14,8 @@
 
 ## Live Demo
 
-[Check it out :point_left:](https://newsweek-clone-by-paul.netlify.app/)
+[Check out my version :point_left:](https://newsweek-clone-by-paul.netlify.app/)
+[newsweek.com :point_left:](https://www.newsweek.com/)
 
 ## Authors
 

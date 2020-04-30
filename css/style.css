@@ -284,8 +284,6 @@ h3,
   word-spacing: 3px;
 }
 
-/* news category navigation */
-
 .news-categories-section {
   position: relative;
   font-weight: 700;
@@ -375,7 +373,6 @@ nav .right-edge {
   color: white;
 }
 
-/* opinion */
 .author-name {
   color: black;
 }
@@ -413,7 +410,6 @@ nav .right-edge {
   background: black;
 }
 
-/* footer */
 footer {
   color: var(--footer-gray);
 }
